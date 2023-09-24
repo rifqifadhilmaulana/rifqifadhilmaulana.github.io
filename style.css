@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Slab:wght@900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: gray;
+    min-height: 2500PX;
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+.navbar ul{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif; 
+     
+    
+}
+.navbar ul .nama{
+    font-size: 30px;
+    color: rgb(252, 252, 252);
+    letter-spacing: 5px;
+    margin-right: auto;
+    text-shadow: 0px 5px 5px white;
+}
+.navbar ul li a{
+
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+.jumbotron img{
+    display: flex;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    position: relative;
+    font-family: sans-serif;
+    margin-top: 100px;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+    padding-top: 100px;
+   
+
+}
+.jumbotron{
+    text-align: center;
+    margin-top: 20px;
+}
+.jumbotron h1{
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 1000;
+}
+.about{
+    background-color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.galery{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    padding: 10px;
+}
+.galery h1{
+    text-align: center; 
+    color: white;
+    font-weight: 1000;
+    text-shadow: 0px 5px black;
+   
+                 
+
+}
+.contact{
+    background-color: gray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.contact h1{
+    text-align: center;
+    font-size: 1000;
+    text-shadow: 0px 5px black;
+}
+.contact input,
+.contact textarea {
+   display: block;
+   width: 100%;
+   height: 30px;
+   margin-bottom: 20px;
+   border: 2px solid;
+   border-radius: 10px;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.contact textarea{
+    height: 110px;
+}
+.contact .tombol{
+    background-color: black;
+    font-size: 23px;
+    padding: 7px;
+    border-radius: 7px;
+    border: 2px solid white;
+    color: white;
+}
+.sosmed{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+ .sosmed a{
+ color: black;
+ background-color: white;
+ padding: 12px;
+ margin-top: 50px;
+ border: 1px solid white;
+ text-decoration:none;
+ width: 45%;
+ text-align: center;
+ position: relative;
+ top: 0;
+ transition: top ease 0.5s;
+  border-radius: 50px;
+}
+.sosmed a:hover{
+   top: -10px;
+   opacity: 70%;
+}
+.sosmed h1{
+    color: white;
+    font-weight: 300%;
+    font-size: 50px;
+    text-shadow: 0px 5px black;
+}
